@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reponsive.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <title>Investment</title>
+    <style>
+        .carousel-item {
+            transition: transform ease-out .5s;
+        }
+
+        #content .carousel-indicators .active {
+            background-color: red;
+        }
+
+        footer ul li:hover {
+            color: #de0d41;
+        }
+
+        .footer-top {
+            background: #2c3238;
+        }
+
+        .footer-bottom {
+            background-color: #111417;
+        }
+
+        .fixed-icon {
+            position: fixed;
+            bottom: 10%;
+            right: 10px;
+
+        }
+
+        .fixed-icon img {
+            background-color: #0f28e6;
+        }
+
+        /* #scroll-container {
+            height: 200px;
+            overflow: hidden;
+        }
+
+        #scroll-container p {
+            margin: 0;
+            padding: 10px;
+            font-size: 24px;
+            line-height: 1.5;
+            height: 50px;
+        } */
+    </style>
+</head>
+
+<body class="bg-light" style="background:linear-gradient(176deg, #FFFFFF, #C3EAFE, #A0DDFC)">
+    <div id="investment">
+        <header class="fixed-top bg-white">
+            <div class="w3-display-container">
+                <div class="container text-white d-flex justify-content-between align-items-center">
+                    <a href=""><img src="image/logo.png" alt="" style="width: 150px;"></a>
+                    <a href=""><img src="image/kefu.png" alt="" style="width: 100%;"></a>
+                    <div class="w3-display-topright text-info d-none abc" style="font-size: 13px;top:20px;right:5px">
+                        <a href="">Support</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="content" class="banner container">
+            <div id="demo" class="carousel slide" data-bs-ride="carousel" data-interval="300" data-pause="false">
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active rounded-circle"
+                        style="width:15px;height:15px"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="rounded-circle"
+                        style="width:15px;height:15px"></button>
+                </div>
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href=""> <img src="image/banner.jpg" alt="Los Angeles" class="d-block"
+                                style="width:100%;max-height: 310px;min-height: 135px;"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href=""> <img src="image/b2.png" alt="Chicago" class="d-block"
+                                style="width:100%;max-height:310px;min-height: 135px;"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-center text-center rounded-3 pt-3 pb-3 mt-2"
+                style="background:linear-gradient(176deg, #FFFFFF, #C3EAFE, #A0DDFC); width: 100%; margin: auto;">
+                <div class="col-lg-3 col-md-4 col-sm-6 rounded mb-2">
+                    <a href=""><i class="fa-solid fa-user" style="color: #16e3d6;font-size: 30px;"></i></a>
+                    <div href="" class="d-block mt-1">User</div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 rounded mb-2">
+                    <a href=""><i class="fa-brands fa-tiktok" style="color: #de0dc2;font-size: 30px;"></i></a>
+                    <div href="" class="d-block mt-1">Tiktok</div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 rounded mb-2">
+                    <a href=""><i class="fa-brands fa-instagram" style="color: #dbdf0c;font-size: 30px;"></i></a>
+                    <div href="" class="d-block mt-1">Intagram</div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 rounded mb-2">
+                    <a href=""><i class="fa-solid fa-download" style="color: #0de311;font-size: 30px;"></i></a>
+                    <div href="" class="d-block mt-1">Download</div>
+                </div>
+            </div>
+            <h1 class="text-center">List id user</h1>
+            <marquee behavior="scroll" direction="down" scrollamount="2" loop="infinite" class="text-center"
+                style="background-color: #bae7fd;overflow-y: hidden;height: 50px;width: 100%;">
+                <div id="demo2" class="text-info" style="font-size: 12px;">
+                    <div>28/05/2023 615*****07 Recharge ₦ 100,000 </div>
+                    <div>28/05/2023 702*****23 Recharge ₦ 5,000 </div>
+                    <div>28/05/2023 767*****12 Recharge ₦ 20,000 </div>
+                    <div>28/05/2023 886*****47 Recharge ₦ 2,500 </div>
+                    <div>28/05/2023 824*****63 Recharge ₦ 50,000 </div>
+                    <div>28/05/2023 751*****71 Recharge ₦ 100,000 </div>
+                    <div>28/05/2023 665*****41 Recharge ₦ 50,000 </div>
+                    <div>28/05/2023 770*****24 Recharge ₦ 2,500 </div>
+                    <div>28/05/2023 728*****88 Recharge ₦ 20,000 </div>
+                    <div>28/05/2023 818*****21 Recharge ₦ 5,000 </div>
+                    <div>28/05/2023 647*****77 Recharge ₦ 100,000 </div>
+                    <div>28/05/2023 658*****38 Recharge ₦ 200,000 </div>
+                    <div>28/05/2023 677*****74 Recharge ₦ 2,500 </div>
+                    <div>28/05/2023 868*****62 Recharge ₦ 200,000 </div>
+                    <div>28/05/2023 871*****21 Recharge ₦ 5,000 </div>
+                    <div>28/05/2023 780*****72 Recharge ₦ 200,000 </div>
+                    <div>28/05/2023 822*****85 Recharge ₦ 5,000 </div>
+                    <div>28/05/2023 870*****23 Recharge ₦ 10,000 </div>
+                    <div>28/05/2023 600*****11 Recharge ₦ 100,000 </div>
+                    <div>28/05/2023 711*****82 Recharge ₦ 10,000 </div>
+                    <div>28/05/2023 850*****70 Recharge ₦ 5,000 </div>
+                    <div>28/05/2023 808*****65 Recharge ₦ 20,000 </div>
+                    <div>28/05/2023 830*****54 Recharge ₦ 10,000 </div>
+                    <div>28/05/2023 872*****85 Recharge ₦ 2,500 </div>
+                    <div>28/05/2023 754*****08 Recharge ₦ 2,500 </div>
+                    <div>28/05/2023 654*****55 Recharge ₦ 20,000 </div>
+                    <div>28/05/2023 742*****00 Recharge ₦ 100,000 </div>
+                    <div>28/05/2023 828*****75 Recharge ₦ 50,000 </div>
+                    <div>28/05/2023 837*****41 Recharge ₦ 20,000 </div>
+                    <div>28/05/2023 806*****50 Recharge ₦ 5,000 </div>
+                    <div>28/05/2023 856*****16 Recharge ₦ 200,000 </div>
+                    <div>28/05/2023 727*****43 Recharge ₦ 5,000 </div>
+                    <div>28/05/2023 807*****63 Recharge ₦ 50,000 </div>
+                    <div>28/05/2023 622*****67 Recharge ₦ 50,000 </div>
+                    <div>28/05/2023 668*****33 Recharge ₦ 20,000 </div>
+                    <div>28/05/2023 625*****35 Recharge ₦ 5,000 </div>
+                    <div>28/05/2023 841*****38 Recharge ₦ 50,000 </div>
+                    <div>28/05/2023 728*****40 Recharge ₦ 2,500 </div>
+                    <div>28/05/2023 810*****36 Recharge ₦ 5,000 </div>
+                    <div>28/05/2023 804*****14 Recharge ₦ 200,000 </div>
+                    <div>28/05/2023 766*****42 Recharge ₦ 2,500 </div>
+                    <div>28/05/2023 610*****37 Recharge ₦ 10,000 </div>
+                    <div>28/05/2023 874*****66 Recharge ₦ 100,000 </div>
+                    <div>28/05/2023 756*****87 Recharge ₦ 2,500 </div>
+                    <div>28/05/2023 642*****15 Recharge ₦ 20,000 </div>
+                    <div>28/05/2023 835*****38 Recharge ₦ 50,000 </div>
+                    <div>28/05/2023 835*****47 Recharge ₦ 20,000 </div>
+                    <div>28/05/2023 652*****51 Recharge ₦ 2,500 </div>
+                    <div>28/05/2023 861*****80 Recharge ₦ 200,000 </div>
+                    <div>28/05/2023 807*****21 Recharge ₦ 20,000 </div>
+                </div>
+            </marquee>
+            <div><a href="">
+                    <img src="image/b1.png" alt="" class="img-responsive" style="width: 100%; max-height:310px"> </a>
+            </div>
+        </div>
+        <footer id="footer" style="margin-bottom:60px">
+            <div class="footer-top pb-5">
+                <div class="container align-center">
+                    <div class="row text-white" style="font-size:14px;margin:auto">
+                        <div class="col-lg-4 col-md-3 col-sm-3 col-xs-6 hei2 pdr pdl mt-2">
+                            <div class="footer__title mt-1 mb-1">
+                                <a href=""><img src="image/logo.png" alt="" style="width: 100px;"
+                                        class="img-responsive"></a>
+                            </div>
+                            <ul class="text-decoration-none text-uper">
+                                <li>
+                                    <i class="fa-solid fa-location-dot" style="color: #de0d41;"></i>
+                                    <span>investment platform</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot" style="color: #de0d41;"></i>
+                                    <span>Our vision is to become the leading</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot" style="color: #de0d41;"></i>
+                                    <span>Necessary resources </span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot" style="color: #de0d41;"></i>
+                                    <span>We believe in empowering</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot" style="color: #de0d41;"></i>
+                                    <span>cskh@5gera.vn</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot" style="color: #de0d41;"></i>
+                                    <span> 8:00 - 22:00</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 hei2 pdr pdl">
+                            <div class="footer__title">
+                                <h4 class="text-danger mb-3 mt-3"> <b>Base Navigation</b></h4>
+                            </div>
+                            <ul class="text-decoration-none">
+                                <li>
+                                    <i class="fa-solid fa-location-dot" style="color: #de0d41;"></i>
+                                    <span>Home</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot" style="color: #de0d41;"></i>
+                                    <span>Accout login</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot" style="color: #de0d41;"></i>
+                                    <span>Blog</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot" style="color: #de0d41;"></i>
+                                    <span>Contact</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot" style="color: #de0d41;"></i>
+                                    <span>Privacy</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot" style="color: #de0d41;"></i>
+                                    <span>Ranking
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 hei2 pdr pdl">
+                            <div class="footer__title">
+                                <h4 class="text-danger mb-3 mt-3"> <b>Investment Calculation.</b></h4>
+                            </div>
+                            <ul class="text-decoration-none">
+                                <li>
+                                    <i class="fa-solid fa-location-dot" style="color: #de0d41;"></i>
+                                    <span>Teams And Conditions</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot" style="color: #de0d41;"></i>
+                                    <span>About</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot" style="color: #de0d41;"></i>
+                                    <span>Latest Announcements</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot" style="color: #de0d41;"></i>
+                                    <span>Explore Your Questions.</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot" style="color: #de0d41;"></i>
+                                    <span>Total Deposits</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot" style="color: #de0d41;"></i>
+                                    <span>Transparency</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 hei2 pdr pdl">
+                            <div class="footer__title">
+                                <h4 class="text-danger mb-3 mt-3"> <b>App</b></h4>
+                            </div>
+                            <a href=""><img class="img-responsive" src="image/appstore.png" alt=""></a>
+                            <a href=""><img class="img-responsive" src="image/playstore.png" alt=""></a>
+                            <div class="footer__sub">
+                                <h4 class="text-danger">Connection</h4>
+                                <a href="" class="d-inline-block mr-1" style="font-size:30px;margin-right:5px"><i
+                                        class="fa-brands fa-facebook bg-white" style="color: #0f28e6;"
+                                        style="font-size:30px;"></i></a>
+                                <a href=""><i class="fa-brands fa-youtube bg-white"
+                                        style="color: #c50d0d;font-size:30px;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 text-white" style="font-size: 13px;">
+                            © Copyright ©MTC247 2023. All rights reserved.
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <a href="" class="d-inline-block"><img src="image/bct.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="fixed-icon">
+            <a href=""><img src="image/fchat-icon.png" class="img-responsive rounded-circle" alt=""
+                    style="width:50px"></a>
+        </div>
+        <div class="fixed-bottom bg-white">
+            <div class="container">
+                <div class="home-page d-flex justify-content-between align-items-center text-center">
+                    <div>
+                        <a href=""><i class="fa-solid fa-house" style="color:#b49d9d"></i></a>
+                        <div> <a style="color:#b49d9d" href="">Home</a></div>
+                    </div>
+                    <div>
+                        <a href=""><i class="fa-solid fa-book" style="color:rgb(69,158,248)"></i></a>
+                        <div> <a style="color:rgb(69,158,248)" href="">Team</a></div>
+                    </div>
+                    <div>
+                        <a href=""><i class="fa-solid fa-user" style="color:#b49d9d"></i></a>
+                        <div> <a style="color:#b49d9d" href="">Individual</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const header = document.querySelector('.fixed-top');
+        const content = document.querySelector('#content');
+        function setMarginTop() {
+            content.style.marginTop = `${header.offsetHeight}px`;
+        }
+        setMarginTop();
+        window.addEventListener('resize', setMarginTop);
+        // bạn cần chèn đoạn mã JavaScript ở đây.
+        const container = document.getElementById('scroll-container')
+        const contentHeight = container.offsetHeight
+        let offset = 0
+
+        function scrollStep() {
+            offset += 1
+            container.style.transform = `translateY(-${offset}px)`
+            if (offset >= contentHeight) {
+                offset = 0
+            }
+        }
+
+        setInterval(scrollStep, 50)
+    </script>
+</body>
+
+</html>

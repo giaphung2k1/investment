@@ -1,0 +1,42 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+:root {
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+}
+
+:root {
+    --spacing-word-smaill: 1px;
+    --spacing-word-medium: 2px;
+    --spacing-word-large: 4px;
+}
+
+:root {
+    --font-open: "Open Sans", sans-serif;
+    --font-arial: Arial, sans-serif;
+    --font-roboto: "Roboto", sans-serif;
+    --font-montserrat: "Montserrat", sans-serif;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif, "Roboto", "Montserrat", "Helvetica Neue";
+}
+
+h1, h2, h3, h4, h5 {
+    line-height: 1.1;
+}
